@@ -1,8 +1,7 @@
 #include <iostream>
 #include <string>
 #include <math.h>
-#include "Complexos.h"
-#include <cstdlib>
+#include "complexos.h"
 
 using namespace std;
 
@@ -13,7 +12,7 @@ int main  ()
 
     cout << ("Tecle 1 para iniciar") << endl;
     cin >> q;
-    system("cls");
+  
 
     Complexos operacoes(R1, R2, I1, I2);
     Complexos pacotes_NC(R1, R2, I1, I2,0);

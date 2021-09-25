@@ -53,7 +53,7 @@ class Complexos
       return(MaisI);
     }
 
-    float subtrai_numero (float R1, float R2, float I1, float I2)
+    void subtrai_numero (float R1, float R2, float I1, float I2)
     {
       MenosR = R1 - R2;
       MenosI = I1 - I2;
